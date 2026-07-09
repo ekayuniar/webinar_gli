@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Sistem Informasi Pendaftaran Seminar</title>
+  <style>
+    /* Menghilangkan margin bawaan browser dan mengunci ukuran layar */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f8fafc; /* Warna latar belakang slate-50 agar senada */
+    }
+
+    /* Membuat iframe memenuhi layar secara penuh, adaptif, dan borderless */
+    #app-frame {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe 
+    id="app-frame" 
+    src="https://script.google.com/macros/s/AKfycbz0IN3gl4hn_c4lGNR2gIcZwZO3G6CvpIFzH-J9hdsoCKdLqZI19x-sQqokdSS2KZWZ/exec"
+    allow="geolocation; microphone; camera">
+  </iframe>
+
+</body>
+</html>
